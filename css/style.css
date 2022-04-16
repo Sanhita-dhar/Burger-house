@@ -1,0 +1,103 @@
+/*
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;
+*/
+*{margin: 0;padding: 0;}
+
+/*************************
+ header section code start
+ ************************/
+header{ width: 100%;position: absolute;}
+.h-contact{font-family: 'Montserrat', sans-serif;font-weight: bold;font-size: 16px;color: #3d2514;}
+.nav-link{font-family: 'Bebas Neue', cursive;font-weight: 600;font-size: 20px;color: #3d2514 !important;
+	      text-transform: uppercase;letter-spacing: 3px;padding: 0 !important}
+.nav-item{margin-left: 56px;margin-top: 10px;}
+
+
+/*************************
+ banner section code start
+ ************************/
+#banner{width: 100%;padding: 30px 0;background-image: url(../image/banner.png);background-position: center;
+	    background-repeat: no-repeat;background-size: cover;height: 100vh;}
+.banner-content{height: 100vh;display: flex;align-items: center;justify-content: flex-start;}
+.banner-content span{font-family: 'Bebas Neue', cursive;font-size: 24px;color: #3d2514 !important;
+	                 border: 3px dashed black;padding: 4px 8px;text-transform: uppercase;display: inline-block;
+	                 margin-bottom: 8px;}
+.banner-content h1{font-family: 'Alfa Slab One', cursive;font-size: 114px;color: #3d2514;text-transform: uppercase;
+	               text-shadow: 4px 4px 0px rgb(255 255 255 / 60%);}
+.banner-content h2{font-family: 'Alfa Slab One', cursive;font-size: 56px;color: #3d2514;text-transform: uppercase;
+	               text-shadow: 3px 3px 0px rgb(255 255 255 / 60%);letter-spacing: 1px;}
+
+/*************************
+ advertise section code start
+ ************************/
+#advertise{width: 100%; padding: 100px 0; text-transform: uppercase;}
+#advertise .ad-image{position: relative;}
+#advertise .ad-content p{font-family: 'Bebas Neue', cursive;color: white; font-size: 25px;position: absolute;top: 15px;left: 30px; transition: 0.5s;}
+#advertise .ad-content h6{font-family: 'Bebas Neue', cursive;color: white; font-size: 41px;position: absolute;top: 40px;left: 30px; transition: 0.5s;}
+#advertise .ad-content a p:hover{color: #3d2514 !important; transition: 0.5s;}
+#advertise .ad-content a h6:hover{color: #3d2514 !important; transition: 0.5s;}
+#advertise .ad-design p{font-family: 'Bebas Neue', cursive;	}
+#advertise .ad-design h6{font-family: 'Bebas Neue', cursive;line-height: 0.9;top: 50px;}
+#advertise .ad-m{margin-left: -11px;}
+#advertise .b3{margin-top: 7px;}
+
+
+/*********************
+category section code start
+**********************/
+#category{width: 100%; padding: 10px 0;}
+#category h6{color: #3d2514;font-family: 'Bebas Neue', cursive;font-size: 25px;font-weight: bold;text-transform: uppercase;background-color: #ffc045;display: inline-block;padding: 7px 20px;margin-bottom: 30px;}
+#category h2{color: #3d2514;font-family: 'Alfa Slab One', cursive;font-size: 50px;text-transform: uppercase;}
+#category p{font-family: 'Montserrat', sans-serif;color: #3d2514; font-size: 16px; font-weight: 300; margin-bottom: 50px;}
+#category h5{color: #3d2514;font-family: 'Bebas Neue', cursive;font-size: 37px;font-weight: bold;text-transform: uppercase;letter-spacing: 2px;}
+#category a button {text-transform: uppercase;border: none;background-color: #bf2222;color: white;font-family: 'Alfa Slab One', cursive;font-size: 16px;padding: 15px 30px; transition: 0.5s;}
+#category .img-p{font-family: 'Montserrat', sans-serif;font-weight: normal; margin-bottom: 20px;}
+#category button:hover{background-color: white;color: #bf2222; border: 1px dashed #bf2222; transition: 0.5s;}
+#category .margin{margin-left: -95px;}
+
+
+/*********************
+event section code start
+**********************/
+#event{width: 100%; padding: 65px 0;}
+#event .slider-box{box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px; padding: 20px;}
+#event h3{font-family: 'Bebas Neue', cursive;font-size: 25px;color: #3d2514;letter-spacing: 2px;text-transform: uppercase;}
+#event h2{font-family: 'Alfa Slab One', cursive;font-size: 35px;color: #3d2514;letter-spacing: 2px;text-transform: uppercase;}
+#event p{font-family: 'Montserrat', sans-serif;font-size: 15px;color: #3d3d3d;}
+#event .owl-nav{display: none;}
+#event .owl-dots{position: absolute;bottom: 30px;}
+#event .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {background: #ffc045;}
+#event .owl-theme .owl-dots .owl-dot span {width: 13px;height: 13px;}
+
+
+/*********************
+from section code start
+**********************/
+#from{width: 100%;background-image: url(../image/bg.png);background-repeat: no-repeat; background-size: cover;
+	   background-position: center; height: 91vh;}
+#from h4{font-family: 'Bebas Neue', cursive;font-size: 29px;color: #3d2514; text-transform: uppercase; letter-spacing: 2px;}
+#from h1{color: #3d2514; text-transform: uppercase; letter-spacing: 2px;font-family: 'Alfa Slab One', cursive;font-size: 50px;}
+#from form input{font-family: 'Bebas Neue', cursive;font-size: 15px;text-transform: uppercase;padding: 15px 0;padding-left: 20px;padding-right: 100px;border: 1px solid #3d2514;margin-left: 10px;border-radius: 3px;}
+#from form input:focus{outline: none;}
+#from form input:focus::placeholder{color: transparent;}
+#from form button{background-color: #bf2222; color: white;font-size: 12px; font-family: 'Alfa Slab One', cursive; text-transform: uppercase;letter-spacing: 2px;padding: 18px 70px;border: none;margin-left: 10px;border-radius: 5px; transition: 0.5s;}
+#from form button:hover{background-color: white;color: #bf2222; transition: 0.5s; border: 1px dashed #bf2222;}
+
+
+
+/*********************
+footer section code start
+**********************/
+#footer{width: 100%; color: white; padding-bottom: 30px;}
+#footer{width: 100%;background-image: url(../image/f-bg.png);background-repeat: no-repeat; background-size: cover;
+	   background-position: center; height: 91vh;}
+#footer .left-content{margin-left: 50px;margin-top: 50px;}
+#footer .left-content a img{margin-bottom: 50px;}
+#footer .left-content p{font-family: 'Montserrat', sans-serif;margin-bottom: 5rem;}
+#footer .right-content span i{font-size: 25px;color: white;margin-right: 10px;}
+#footer .right-content span{font-family: 'Bebas Neue', cursive;font-size: 20px;text-transform: uppercase;}
+.c-item span{font-family: 'Bebas Neue', cursive;font-size: 20px;font-weight: 300;color: #fff;text-transform: uppercase;letter-spacing: 1px;margin-left: 50px;}
+.f-icon i{height: 30px;width: 30px;background-color: #fff;border-radius: 100%;text-align: center;line-height: 30px;font-size: 20px;font-weight: 600;color: black;margin-left: 6px;}	   
+.f-icon a i:hover{background-color: #3d2514; color: white; transition: 0.5s;}

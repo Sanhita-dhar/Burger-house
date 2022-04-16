@@ -1,0 +1,262 @@
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 768px) {
+  
+  /* CSS */
+  .collapse{
+    background-color: white;
+    padding: 10px 0px;
+    text-align: left;  
+  }
+  .banner-content span{
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.banner-content h1{
+  font-size: 70px !important;
+}
+.banner-content h2{
+  font-size: 45px;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  .b-img{
+    margin-top: 80px;
+  }
+  .container-fluid{
+    margin-top: 30px;
+  }
+  #advertise .ad-content p{
+    font-size: 15px;
+  }
+  #advertise .ad-content h6{
+    font-size: 29px;
+  }
+  #advertise .b3 {
+    margin-top: 0px;
+  }
+  #event .owl-dots{
+    margin-top: 20px;
+    position: unset;
+    bottom: 0px;
+    left: 0px;
+}
+#event h2{
+  font-size: 30px;
+} 
+#category h2{
+  font-size: 40px;
+  }
+  #category h5{
+  font-size: 30px;
+  }
+  #category a button{
+    font-size: 14px;
+    padding: 14px 25px;
+  }
+  #from{
+  height: 50vh;
+}
+#from h1{
+  font-size: 38px
+}
+#from form input {
+  padding-right: 9px;
+  margin-bottom: 14px;
+}
+#from form button {
+    padding: 22px;
+    font-size: 11px;
+} 
+#footer{
+  margin-top: 380px;
+  padding-bottom: 0;
+}
+#footer .f-content {
+   height: auto;
+}
+.r-content{
+  margin-top: 45px;
+} 
+  } 
+
+
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+   .bike{
+    display: none;
+  }
+  .collapse{
+    background-color: white;
+    padding: 10px 0px;
+    text-align: left;  
+  }
+.banner-content span{
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.banner-content h1{
+  font-size: 60px;
+}
+.banner-content h2{
+  font-size: 45px;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  .banner-content{
+    height: 85vh;
+    margin-top: 25px;
+  }
+  #advertise{
+    margin-top: 210px;
+  }
+.pic-2{
+  margin-top: 20px;
+ } 
+ #advertise .b3{
+  margin-top: 0px;
+}
+#advertise .ad-content p{
+  font-size: 20px;
+}
+#advertise .ad-content h6{
+  font-size: 35px;
+}
+#category h2{
+  font-size: 30px;
+}
+ #category h5{
+  font-size: 30px;
+  }
+ #category a button{
+    font-size: 14px;
+    padding: 14px 25px;
+  }
+.responsive-mb{
+  margin-top: 30px;
+}
+#event .owl-dots{
+    margin-top: 20px;
+    position: unset;
+    bottom: 0px;
+    left: 0px;
+} 
+#event .owl-carousel .owl-item img {
+    margin-top: 10%;
+  }
+#event h2{
+  font-size: 25px;
+}
+#from{
+  height: 50vh;
+}
+#from h1{
+  font-size: 38px
+}
+#from form input {
+  padding-right: 5px;
+  margin-bottom: 10px;
+}
+#from form button {
+    padding: 22px;
+    font-size: 11px;
+}  
+
+#footer{
+  margin-top: 380px;
+  padding-bottom: 0;
+}
+#footer .f-content {
+   height: auto;
+}
+#footer .left-content a img {
+  width: 80%;
+  margin-left: 40px;
+}
+#footer .left-content p {
+   width: 70%;
+   margin-left: 40px;   
+}
+
+#footer .left-content {
+    margin-bottom: -40px;
+    margin-left: 0;
+}
+#footer .right-content .r-content{
+  margin-right: 98px;
+}
+#footer .right-content .mt-3{
+  margin-top: 0rem !important;
+}
+
+#footer .c-item{
+  flex-direction: column;
+    margin-top: 20px;
+    text-align: center;
+}
+#footer .f-icon i{
+   margin-bottom: 10px;
+}
+
+}
